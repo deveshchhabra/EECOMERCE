@@ -1,0 +1,97 @@
+.Name{
+    text-align: left;
+}
+ .header {
+    /* display: flex;
+    justify-content: space;
+    margin: 5px; */
+     /* border: 1px solid black; */
+    /* color:white; */
+    margin: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: space-evenly;
+
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* flex-direction: column; */
+ }
+
+ #heading{
+           background-color: rgb(19, 18, 18);
+           color:white;
+ }
+
+
+
+ .card{
+    border:solid #eee7e7;
+    width: 310px;
+    height: 322px;
+
+     margin: 100px;
+    padding: 10px; 
+ }
+
+ .card>img{
+    border:solid black;
+    width: 310px;
+    height: 322px;
+
+
+ }
+ .card >span >hr{
+    width: 648px;
+    height: 1px;
+ }
+ .card >h2{
+    font-family: Syne;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+ }
+
+ .card>h4{
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+ }
+
+.form >h2{
+    color: var(--Grey-scale-1000, #000);
+/* H2 title */
+font-family: Syne;
+font-size: 50px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+ .form >h3{
+    color: var(--Grey-scale-1000, #000);
+/* Subtitles */
+font-family: Syne;
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+ }
+
+ .form >h4{
+    color: var(--Grey-scale-1000, #000);
+/* Body text 18 */
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+ }
